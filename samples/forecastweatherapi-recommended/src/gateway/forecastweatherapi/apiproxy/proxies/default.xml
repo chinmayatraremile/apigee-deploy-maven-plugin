@@ -15,7 +15,7 @@
                     <Name>Assign-Message-1</Name>
                 </Step>                
             </Response>
-            <Condition>(proxy.pathsuffix MatchesPath &quot;/**&quot;) and (request.verb = &quot;GET&quot;)</Condition>
+            <Condition>(request.verb = &quot;GET&quot;)</Condition>
         </Flow>
     </Flows>
     <PreFlow name="PreFlow">
